@@ -17,7 +17,7 @@ function My-Intro {
         [string]$Profession,
         [int]$age
          )
-    Write-Output "My name is $Name and job is $Profession and age is $age"
+    Write-Output "My name is $Name and job is $profession and age is $age"
 }
 
-My-Intro -name "akhilesh" -profession "associate" -age "26"
+My-Intro -name "akhilesh" -age "26" -profession "associate"
